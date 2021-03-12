@@ -11,16 +11,17 @@ body{
 }
 
 .body_holder{
-    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .navigation-bar {
-	width:1365px;
+	width:1330px;
 	height:60px;
-  background-color: #E0EAEC;
-  position: fixed;
-  max-width: 1335px;
-  margin: 0px auto;
+  	background-color: #E0EAEC;
+ 	position: fixed;
+  	
+  	margin: 0px auto;
 }
 
 .icons
@@ -220,6 +221,8 @@ a:hover{
     letter-spacing: 0.8px;
     font-family: 'Oswald', sans-serif;
     border-bottom: solid 2px #FE8369;
+    padding-right:480px;
+	
 }
 
 .sec2-welcome-content{
@@ -318,14 +321,15 @@ a:hover{
 }
 
 .template-inside{
-    display: flex;
     margin-top: 10px;
+    align-items:center;
 }
 
 .template-inside img{
     width:15px;
     height: 15px;
     padding-right: 10px;
+    padding-left:10px;
 }
 
 .template-inside button{
@@ -721,6 +725,7 @@ box-shadow: 0px 5px 20px #F0E3D0;
     border-width: 2px;
     padding: 50px 20px 50px;
     margin:0px 15px 0px 15px;
+    
 }
 
 
