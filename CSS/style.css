@@ -2,10 +2,16 @@
 
 
 body{
-    margin: auto;
+    margin: 0;
 }
+.container{
+  width:1280px
+  margin: 0 auto;
+}
+
+
 .nav {
-	  height:50px;
+    height:50px;
     background-color: #95836D;
     position: fixed;
     width: 100%;
@@ -56,7 +62,7 @@ li a {
 .section1{
   background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
-  padding:150px 200px 0px;
+  padding:100px 200px 0px;
   height:600px;
 }
 
